@@ -1,0 +1,107 @@
+name: food_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & ANIMATION
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.2
+  animated_splash_screen: ^1.3.0
+  font_awesome_flutter: ^10.12.0
+  slide_to_act: ^2.0.2
+  google_fonts: ^6.1.0
+  intl: ^0.20.2
+  cherry_toast: ^1.13.0
+
+  # ICONS
+  flutter_launcher_icons: ^0.14.4
+
+  # STATE MANAGEMENT & BACKEND
+  flutter_riverpod: ^2.5.1
+  readmore: ^3.0.0
+  supabase_flutter: ^2.10.3
+  page_transition: ^2.2.1
+  iconsax: ^0.0.8
+  image_picker: ^1.2.1
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # IMAGES
+    - assets/images/pic1.jpg
+    - assets/images/pic2.jpg
+    - assets/images/pic3.jpg
+    - assets/images/pic4.jpg
+    - assets/images/login1.png
+    - assets/images/login2.png
+
+    # ICONS
+    - assets/icon/dash.png
+    - assets/icon/fire.png
+    - assets/icon/star.png
+    - assets/icon/time.png
+    - assets/icon/icon.png
+
+    # ANIMATIONS
+    - assets/animations/food.json
+
+    # LOADPAGES
+    - assets/loadpages/splash1.png
+    - assets/loadpages/splash2.png
+    - assets/loadpages/splash3.png
+
+    # CARTOON
+    - assets/cartoons/burger.png
+    - assets/cartoons/chef.png
+    - assets/cartoons/chili.png
+    - assets/cartoons/courier.png
+    - assets/cartoons/cup_cake.png
+    - assets/cartoons/food_pattern.png
+    - assets/cartoons/ginger.png
+    - assets/cartoons/leaf.png
+    - assets/cartoons/pizza.png
+    - assets/cartoons/profile.png
+
+    # FOOD PRODUCTS
+    - assets/product/bacon_burger.png
+    - assets/product/bacon_burger1.png
+    - assets/product/beef_burger.png
+    - assets/product/beef_burger1.png
+    - assets/product/cheese_burger.png
+    - assets/product/cheese_burger1.png
+    - assets/product/cup_cake.png
+    - assets/product/cup_cake1.png
+    - assets/product/double_burger.png
+    - assets/product/double_burger1.png
+    - assets/product/pizza.png
+    - assets/product/pizza1.png
+    - assets/product/pizza11.png
+    - assets/product/pizza111.png
