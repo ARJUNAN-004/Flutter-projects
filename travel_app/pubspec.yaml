@@ -1,0 +1,113 @@
+name: travel_app
+description: "A Travel Community App where users can post and explore places."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase dependencies
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.1.0
+  firebase_app_check: ^0.3.2+10
+
+  # Google Sign In
+  google_sign_in: ^6.2.1
+
+  # Uploading with Cloudinary
+  cloudinary_public: ^0.23.1
+
+  # Get images from gallery & camera
+  image_picker: ^1.0.8
+
+  # For local storage (user details)
+  shared_preferences: ^2.2.2
+
+  # Random string for unique IDs (optional)
+  random_string: ^2.3.1
+
+  flutter_launcher_icons: ^0.14.4
+  lottie: ^3.3.2
+  animated_splash_screen:
+  page_transition: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon.png" # Fallback icon for older Android devices
+  android_adaptive_icon:
+    foreground: "assets/images/frontbg.png"
+    background: "assets/images/backbg.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bali.jpg
+    - assets/images/boy.jpg
+    - assets/images/dubai.jpg
+    - assets/images/france.jpg
+    - assets/images/home.png
+    - assets/images/india.jpg
+    - assets/images/login.png
+    - assets/images/mexico.jpg
+    - assets/images/newyork.jpg
+    - assets/images/pin.png
+    - assets/images/signup.png
+    - assets/images/search.png
+    - assets/images/tajmahal.jpg
+    - assets/animation_123.json
+    - assets/images/anonymous.jpg
+
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+    - family: Aariel
+      fonts:
+        - asset: assets/fonts/Aariel.otf
+
+    - family: AarielBold
+      fonts:
+        - asset: assets/fonts/Aariel-Bold.otf
+          weight: 700
+
+    - family: Bileha
+      fonts:
+        - asset: assets/fonts/Bileha.otf
+
+    - family: Bonsad
+      fonts:
+        - asset: assets/fonts/Bonsad-Regular.otf
+
+    - family: Gendy
+      fonts:
+        - asset: assets/fonts/Gendy.otf
+
+    - family: Rogbold
+      fonts:
+        - asset: assets/fonts/Rogbold.otf
+          weight: 700
+
+    - family: Serif
+      fonts:
+        - asset: assets/fonts/serif.ttf
